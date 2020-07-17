@@ -21,6 +21,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Mobile e-commerce with React Native.",
+    "githubUrl": "https://github.com/mcote7/ShoppingWithReactNative"
   }
 }
