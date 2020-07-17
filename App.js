@@ -7,7 +7,7 @@ export default function App() {
   console.log("App exicuted")
   return (
     <View style={styles.container}>
-      <Text>Welcome to my store!</Text>
+      <Text>Welcome to my store!XXXXXX</Text>
       <StatusBar style="auto" />
     </View>
   );
