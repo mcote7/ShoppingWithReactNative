@@ -7,13 +7,4 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  image: {
-    borderRadius: 12,
-    marginBottom: 10
-  },
-  text: {
-    marginBottom: 10,
-    textDecorationLine: 'underline',
-    fontSize: 24
-  }
 });
