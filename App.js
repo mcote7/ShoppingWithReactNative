@@ -1,18 +1,12 @@
 import React from 'react';
-import {View, StatusBar, ImageBackground} from 'react-native';
+import {View, StatusBar} from 'react-native';
+import WelcomeScreen from './app/screens/WelcomeScreen';
 
 export default function App() {
   return (
-    <View style={{
-      flex: 1,
-      flexDirection: 'row',
-      justifyContent: 'center',
-      alignItems: 'center',
-      backgroundColor: '#fff'
-    }}>
-    
-
+    <>
+    <WelcomeScreen/>
     <StatusBar/>
-    </View>
+    </>
   );
 };
