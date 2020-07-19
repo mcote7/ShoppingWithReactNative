@@ -1,13 +1,18 @@
 import React from 'react';
-import {Text, Image, TouchableOpacity, SafeAreaView, Alert, Button} from 'react-native';
-import {styles} from './styles/newStyle'
+import {View, StatusBar, ImageBackground} from 'react-native';
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      
-    </SafeAreaView>
+    <View style={{
+      flex: 1,
+      flexDirection: 'row',
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: '#fff'
+    }}>
+    
+
+    <StatusBar/>
+    </View>
   );
-}
-
-
+};

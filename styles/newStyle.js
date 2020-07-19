@@ -7,4 +7,9 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  text: {
+    margin: 5,
+    fontSize: 24,
+    color: 'rgb(15, 0, 75)'
+  }
 });
