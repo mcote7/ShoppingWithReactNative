@@ -1,7 +1,7 @@
 import React from 'react';
-import { View, Image, StyleSheet } from 'react-native';
+import { View, Image } from 'react-native';
+import {styles} from '../styles/ListingDetailsScreenStyles';
 import AppText from '../components/Apptext';
-import colors from '../config/colors';
 import ListItem from '../components/ListItem';
 
 function ListingDetailsScreen(props) {
@@ -21,26 +21,4 @@ function ListingDetailsScreen(props) {
     </View>
   );
 };
-const styles = StyleSheet.create({
-  image: {
-    width: '100%',
-    height: 300,
-  },
-  detailsCont: {
-    padding: 20,
-  },
-  title: {
-    fontSize: 26,
-    fontWeight: '500',
-  },
-  price: {
-    marginVertical: 5,
-    color: colors.secondary,
-    fontSize: 24,
-    fontWeight: 'bold',
-  },
-  userCont: {
-    marginVertical: 60,
-  },
-});
 export default ListingDetailsScreen;

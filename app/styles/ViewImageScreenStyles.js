@@ -1,22 +1,15 @@
 import {StyleSheet} from 'react-native';
-import colors from '../config/colors';
 
 export const styles = StyleSheet.create({
   closeIcon: {
-    height: 50,
-    width: 50,
     position: 'absolute',
     top: 40,
-    left: 5,
-    backgroundColor: colors.primary,
+    left: 30,
   },
   deleteIcon: {
-    height: 50,
-    width: 50,
     position: 'absolute',
     top: 40,
-    right: 5,
-    backgroundColor: colors.secondary,
+    right: 30,
   },
   chair: {
     width: '100%',
