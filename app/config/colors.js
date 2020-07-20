@@ -1,8 +1,11 @@
 export default {
   primary: '#fc5c65',
+  primaryLight: '#ffd4d6',
+  primaryDark: '#fb2833',
   secondary: '#4ecdc4',
-  primaryDark: 'hsl(357, 96%, 57%)',
-  secondaryDark: 'hsl(176, 56%, 35%)',
+  secondaryLight: '#edfffe',
+  secondaryDark: '#278b85',
   black: '#000',
-  white: '#fff'
+  white: '#fff',
+  grey: '#6e6969'
 }
