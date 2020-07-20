@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, StatusBar, Text} from 'react-native';
+import {StatusBar} from 'react-native';
 import WelcomeScreen from './app/screens/WelcomeScreen';
 import ViewImageScreen from './app/screens/ViewImageScreen';
 

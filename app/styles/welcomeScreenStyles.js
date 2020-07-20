@@ -16,4 +16,14 @@ export const styles = StyleSheet.create({
     height: 100,
     width: 100,
   },
+  logoText: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    paddingVertical: 10,
+    color: colors.secondaryDark,
+  },
+  btnCont: {
+    width: '100%',
+    padding: 20,
+  },
 });
