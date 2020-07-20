@@ -5,6 +5,7 @@ import {styles} from '../styles/welcomeScreenStyles';
 function WelcomeScreen(props) {
   return (
     <ImageBackground
+      blurRadius={2}
       source={require('../assets/background.jpg')}
       style={styles.backgroundImage}>
     <View style={styles.logoCont}>
@@ -13,8 +14,7 @@ function WelcomeScreen(props) {
         style={styles.logo}/>
       <Text>sell what you don't need</Text>
     </View>
-    <View style={styles.loginButton}></View>
-    <View style={styles.registerButton}></View>
+    
     </ImageBackground>
   );
 };

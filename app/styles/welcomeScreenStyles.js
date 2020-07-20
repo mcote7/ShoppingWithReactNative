@@ -16,14 +16,4 @@ export const styles = StyleSheet.create({
     height: 100,
     width: 100,
   },
-  loginButton: {
-    width: '100%',
-    height: 70,
-    backgroundColor: colors.primary,
-  },
-  registerButton: {
-    width: '100%',
-    height: 70,
-    backgroundColor: colors.secondary,
-  },
 });
