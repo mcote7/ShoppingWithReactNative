@@ -1,17 +1,19 @@
 import React from 'react';
-import { View, StyleSheet, Image } from 'react-native';
+import { View, StyleSheet, Image, TouchableOpacity } from 'react-native';
 import AppText from './Apptext';
 import colors from '../config/colors';
 
 function ListItem({image, title, subTitle}) {
   return (
-    <View style={styles.container}>
-      <Image style={styles.image} source={image}/>
-      <View>
-        <AppText style={styles.title}>{title}</AppText>
-        <AppText style={styles.subTitle}>{subTitle}</AppText>
+    <TouchableOpacity>
+      <View style={styles.container}>
+        <Image style={styles.image} source={image}/>
+        <View>
+          <AppText style={styles.title}>{title}</AppText>
+          <AppText style={styles.subTitle}>{subTitle}</AppText>
+        </View>
       </View>
-    </View>
+    </TouchableOpacity>
   );
 };
 const styles = StyleSheet.create({

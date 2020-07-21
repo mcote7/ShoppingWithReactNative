@@ -8,14 +8,14 @@ import ListItemSeparator from '../components/ListItemSeparator';
 const messages = [
   {
   id: 1,
-  title: 'T1',
-  description: 'D1',
+  title: 'Title1',
+  description: 'Desc.1',
   image: require('../assets/me.jpg'),
   },
   {
   id: 2,
-  title: 'T2',
-  description: 'D2',
+  title: 'Title2',
+  description: 'Desc.2',
   image: require('../assets/me.jpg'),
   }
 ]
