@@ -1,7 +1,5 @@
 import React from 'react';
 import {StatusBar} from 'react-native';
-import Card from './app/components/Card';
-import AppText from './app/components/Apptext';
 import WelcomeScreen from './app/screens/WelcomeScreen';
 import ViewImageScreen from './app/screens/ViewImageScreen';
 import ListingDetailsScreen from './app/screens/ListingDetailsScreen';
