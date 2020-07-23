@@ -27,6 +27,7 @@ function MessagesScreen(props) {
         keyExtractor={m => m.id.toString()}
         renderItem={({item}) =>
         <ListItem
+          onPress={()=>console.log('message entered', item)}
           title={item.title}
           subTitle={item.description}
           image={item.image}/>}

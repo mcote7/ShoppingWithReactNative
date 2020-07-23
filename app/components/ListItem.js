@@ -1,11 +1,13 @@
 import React from 'react';
-import { View, StyleSheet, Image, TouchableOpacity } from 'react-native';
+import { View, StyleSheet, Image, TouchableHighlight } from 'react-native';
 import AppText from './Apptext';
 import colors from '../config/colors';
 
-function ListItem({image, title, subTitle}) {
+function ListItem({image, title, subTitle, onPress}) {
   return (
-    <TouchableOpacity>
+    <TouchableHighlight
+      underlayColor={colors.lightGrey}
+      onPress={onPress}>
       <View style={styles.container}>
         <Image style={styles.image} source={image}/>
         <View>
@@ -13,7 +15,7 @@ function ListItem({image, title, subTitle}) {
           <AppText style={styles.subTitle}>{subTitle}</AppText>
         </View>
       </View>
-    </TouchableOpacity>
+    </TouchableHighlight>
   );
 };
 const styles = StyleSheet.create({
