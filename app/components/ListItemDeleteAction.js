@@ -4,9 +4,9 @@ import colors from '../config/colors';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
-function ListItemDeleteAction(props) {
+function ListItemDeleteAction({onPress}) {
   return (
-    <TouchableOpacity style={styles.delete}>
+    <TouchableOpacity style={styles.delete} onPress={onPress}>
       <View ><MaterialCommunityIcons name='trash-can' color='white' size={65} /></View>
     </TouchableOpacity>
   );
