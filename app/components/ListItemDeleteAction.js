@@ -2,10 +2,13 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import colors from '../config/colors';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
 function ListItemDeleteAction(props) {
   return (
-    <View style={styles.delete}><MaterialCommunityIcons name='trash-can-outline' color='white' size={45} /></View>
+    <TouchableOpacity style={styles.delete}>
+      <View ><MaterialCommunityIcons name='trash-can' color='white' size={65} /></View>
+    </TouchableOpacity>
   );
 }
 const styles = StyleSheet.create({
@@ -13,7 +16,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: colors.primaryDark,
-    width: 70
+    width: 120,
+    height: 120
   },
 })
 
